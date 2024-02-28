@@ -17,8 +17,20 @@ names = ["sief", "ziad"]
 #adding an item to the list
 names.append("hamza")
 # lopping throw the list using for
-for i in names:
-    if i =="ziad":
-        print("zyad")
-    else:
-        print(i)
+# for i in names:
+#     if i =="ziad":
+#         print("zyad")
+#     else:
+#         print(i)
+
+
+user_input=input("please enter the name you want to input")
+if user_input in names:
+    edit_name=input("please enter the name you want to edit ")
+    for i in names:
+        if i ==user_input:
+            print(edit_name)
+        else:
+            print(i)
+else:
+    print("this name is not registered ")
