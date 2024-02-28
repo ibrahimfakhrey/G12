@@ -34,3 +34,4 @@ if user_input in names:
             print(i)
 else:
     print("this name is not registered ")
+# exercise make list of food that should have three food and one of the food is written in  error you should retype what in the list in correct
