@@ -57,3 +57,7 @@ for key in G12:
   sicienc_marks=  G12[key][2]["sc"]
   print(sum(sicienc_marks))
 
+# programe to ask the user if you are teacher or student
+#teacher: will see what is in the diction ask if you want to edit or add if edit i need to get the name and edit the valu if add get fdrom teaxher the key wich is name and values wich is group of numbers
+#studen: will get his name only and then get for him the totla of tha whole marks
+#it is not allowed to use chatgpt or any ai it is allowed to use google search
