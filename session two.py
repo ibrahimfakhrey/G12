@@ -28,7 +28,11 @@
 
 
 #adding more data to the diction to make it mor complicated
-
+numbrs=[10,20,30]
+summ=0
+for i in numbrs:
+    sum=i+sum
+print(sum)
 G12={
     "hamza":[
         {
